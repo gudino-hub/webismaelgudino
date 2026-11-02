@@ -72,31 +72,11 @@ details p,details ul{margin:12px 0 0;color:var(--muted)}
 details ul{padding-left:20px}
 .warn{border-left:4px solid var(--accent);padding-left:12px}
 footer{text-align:center;padding:54px 0 70px;color:var(--muted)}
-.marquee{background:#000;color:#fff;overflow:hidden;white-space:nowrap;text-decoration:none;display:block;position:relative;z-index:5}
-.marquee-track{display:inline-flex;animation:scroll 28s linear infinite;padding:10px 0}
-.marquee:hover .marquee-track{animation-play-state:paused}
-.marquee span{padding:0 28px;font-weight:700;font-size:.9rem;letter-spacing:.04em;text-transform:uppercase}
-.marquee span b{color:var(--accent)}
-@keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-@media (prefers-reduced-motion: reduce){.marquee-track{animation:none}}
 footer a{color:var(--accent)}
 .center{text-align:center}
 </style>
 </head>
 <body>
-
-<a class="marquee" href="#faq" aria-label="Lee todas las condiciones antes de suscribirte">
-  <div class="marquee-track">
-    <span>⚠️ <b>Importante:</b> lee todas las condiciones antes de suscribirte</span>
-    <span>✉️ Las cartas viajan por correo ordinario, sin seguimiento</span>
-    <span>⚠️ <b>Importante:</b> lee todas las condiciones antes de suscribirte</span>
-    <span>✉️ Las cartas viajan por correo ordinario, sin seguimiento</span>
-    <span>⚠️ <b>Importante:</b> lee todas las condiciones antes de suscribirte</span>
-    <span>✉️ Las cartas viajan por correo ordinario, sin seguimiento</span>
-    <span>⚠️ <b>Importante:</b> lee todas las condiciones antes de suscribirte</span>
-    <span>✉️ Las cartas viajan por correo ordinario, sin seguimiento</span>
-  </div>
-</a>
 
 <header class="hero">
   <div class="wrap">
@@ -177,9 +157,9 @@ footer a{color:var(--accent)}
   </div>
 </section>
 
-<section id="faq">
+<section>
   <div class="wrap text">
-    <h2 class="center">Preguntas frecuentes y condiciones</h2>
+    <h2 class="center">Preguntas frecuentes</h2>
 
     <details><summary>¿Cuándo puedo suscribirme?</summary>
       <p>Para el lanzamiento, las suscripciones estarán abiertas del 3 al 5 de noviembre de 2026. En los meses siguientes, podrás suscribirte hasta el día 10, inclusive, para participar en la edición de ese mismo mes. Las suscripciones realizadas después del día 10 corresponderán a la siguiente edición disponible.</p></details>
